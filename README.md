@@ -1,8 +1,4 @@
-# household_service_provider
-
-
-
-## SHEBA - A Household Service Provider 🏠
+# SHEBA - A Household Service Provider 🏠
 [![Stars](https://img.shields.io/github/stars/tonmoylive/household_service_provider?style=social)]()
 [![Forks](https://img.shields.io/github/forks/tonmoylive/household_service_provider?style=social)]()
 
