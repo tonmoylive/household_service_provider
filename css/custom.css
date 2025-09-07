@@ -1,0 +1,133 @@
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Change Brand Font */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+  color: #F0AAB1;
+}
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.font-italic {
+  font-size: 24px;
+}
+
+a {
+  color: black;
+}
+
+.navbar .active {
+  color: white;
+  background-color: #DC3545;
+}
+
+a:hover {
+  color: #f26571;
+}
+
+/* Change Footer Icon Link Color */
+.fi-color {
+  color: #DC3545;
+}
+
+fi-color:hover {
+  color: #E994A2;
+}
+
+/* Plus Button for adding New Users Bottom Right */
+.box {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 30px;
+}
+
+/* Setting Margin for Welcome to SHEBA */
+.mainHeading {
+  margin-top: 50px;
+}
+
+/* Setting Margin and Alignment for Welcome to Mobile View */
+@media only screen and (max-width: 900px) {
+  .myclass {
+    margin-top: 350px;
+    text-align: center;
+  }
+}
+
+/* Header Jumbotron position in Mobile view */
+@media (max-width: 900px) {
+  .mainHeading {
+    position: absolute;
+    top: 300px; /* This is the height of the fixed navbar */
+    left: 15px;
+    right: 15px;
+    text-align: left !important;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7); /* Box BG Opacity */
+    border-radius: 28px; /* Box BG Opacity rounded look */
+  }
+
+  .mainHeading h1 {
+    font-size: 2rem; /* Header - Adjust size for mobile */
+  }
+
+  .mainHeading p {
+    font-size: 1rem; /* Slogan - Adjust size for mobile */
+  }
+
+  .mainHeading a {
+    margin-top: 10px;  /* Action Button - Adjust size for mobile */
+    width: fit-content;
+  }
+}
+
+/* Footer element center-align for mobile */
+@media (max-width: 900px) {
+  footer .row {
+    text-align: center;
+  }
+
+  footer .col-md-6 {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); /* Red soft glow */
+}
+
+/* Smooth transition for navbar collapse */
+.navbar-collapse {
+  transition: height 0.7s ease;
+}
+
+

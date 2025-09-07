@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  padding-top: 60px; /* Space for fixed navbar */
+  overflow: hidden;
+  user-select: none;
+  	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.container-box {
+  width: 100%;
+  max-width: 400px;
+}
+
+.card1 {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #d6dfff;
+  text-align: center;
+}
+
+.card1 h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card1 p {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.card1 a {
+  color: #45a049;
+}
+    .card1 a, 
+	.card1 a:visited, 
+	.card1 a:hover, 
+	.card1 a:active {
+	  text-decoration: none;
+	}
+
+.card1 label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.card1 input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.card1 button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card1 button:hover {
+  background-color: #bd091b;
+}
+
+.success {
+  color: #45a049;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 1000;
+}
+
+/* Home Button */
+	.home-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .home-btn i {
+      color: #588157;
+    }
+	.links1 {
+      margin-top: 15px;
+      font-size: 13px;
+	  text-align: right;
+      color: #888;
+    }
+
+    .links1 span {
+      color: #45a049;
+    }
+
+    .links1 a, 
+	.links1 a:visited, 
+	.links1 a:hover, 
+	.links1 a:active {
+	  text-decoration: none;
+	  color: inherit;
+	}
